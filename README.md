@@ -1,7 +1,7 @@
 # otus-lab-6
 # Установка Graylog2, сбор логов
 
-Установку выполняем в виртуально машине под управлением Centos 7.    
+Установку выполняем в виртуальной машине под управлением Centos 7.    
 Всё делаем от имени суперпользвателя или используя механизм sudo.
   
 Так как ставить будем на чистую минимальную установку, сначала устанавливаем java
@@ -18,7 +18,7 @@ yum install mongodb-org
 Запускаем сервис 
 
 ```bash
-    systemctl daemon-reload
+systemctl daemon-reload
 systemctl enable mongod.service
 systemctl start mongod.service
 ```
